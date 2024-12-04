@@ -1,0 +1,64 @@
+= 공지사항 API 가이드
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[overview]]
+== 개요
+
+공지사항 관리를 위한 REST API 문서입니다.
+
+[[notice-apis]]
+== 공지사항 API
+
+[[notice-get]]
+=== 공지사항 조회
+
+==== HTTP Request
+include::{snippets}/notice-get/http-request.adoc[]
+
+==== Path Parameters
+include::{snippets}/notice-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/notice-get/http-response.adoc[]
+
+==== Response Fields
+include::{snippets}/notice-get/response-fields.adoc[]
+
+[[notice-create]]
+=== 공지사항 등록
+
+==== HTTP Request
+include::{snippets}/notice-create/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/notice-create/http-response.adoc[]
+
+[[notice-update]]
+=== 공지사항 수정
+
+==== HTTP Request
+include::{snippets}/notice-update/http-request.adoc[]
+
+==== Path Parameters
+include::{snippets}/notice-update/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/notice-update/http-response.adoc[]
+
+[[notice-delete]]
+=== 공지사항 삭제
+
+==== HTTP Request
+include::{snippets}/notice-delete/http-request.adoc[]
+
+==== Path Parameters
+include::{snippets}/notice-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/notice-delete/http-response.adoc[]
+
